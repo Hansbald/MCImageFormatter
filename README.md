@@ -7,6 +7,7 @@ it first combines pixels with the same color horizontally and then vertically, t
 ## The LUA Part
 
 **Requirements:**
+
 The LUA script requires a basic tier 1 computer with a monitor attached. 
 An internet card is highly recommended.
 
@@ -26,9 +27,11 @@ For easiest usage just use it with a pastebin code.
 
 
 **Error detection**
+
 Should you run out of ink or if your output storage fills up the program pauses and waits for you to fix the issue. It will automatically resume when the problem is resolved.
 
 **Orientations:**
+
 You can print in three orientations: **wall, ceiling and floor**
 Here is an example for a wall print (works in all directions) and a floor print.
 
@@ -42,9 +45,11 @@ Here is an example for a wall print (works in all directions) and a floor print.
 ### The Java Part
 
 **Notable Features:**
+
 Drag and drop an image into the "Input Image" view to load a new imagine
 
 **Cosmetic Image zoom**
+
 You can zoom into both the input and output image with the scroll wheel, this is entirely cosmetic no transformations are being applied to the actual image. You can use this to zoom in to fine tune the alpha threshold for example.
 Upon loading an image or committing changes to it it tries to scale itself to fit the view.
 
@@ -52,6 +57,7 @@ Upon loading an image or committing changes to it it tries to scale itself to fi
 
 
 **Alpha Threshold**
+
 The 3D Printer cannot display semi-transparency. 
 The slider sets any pixel with a transparency less than the threshold to be entirely transparent and sets any pixel above the threshold to be fully opaque. 
 This is mostly necessary for pictures with bad dithering or anti-aliasing.
@@ -63,6 +69,7 @@ This test image has many different transparency levels to show the effect.
 
 
 **Resizing**
+
 Resizes the image to a multiple of 16 pixels, padding will be supported soon.
 The output does not have to be square it can also be rectangular.
 
@@ -70,18 +77,21 @@ The output does not have to be square it can also be rectangular.
 
 
 **Print placeholders for empty cells**
+
 If a cell (16x16 pixels) is entirely transparent you can either discard it and skip printing it
 or alternatively you can print a placeholder for those cells.
 This is useful if you want to use a chest to lay the printed cells out layer by layer.
 To learn more about this check out the Tipps and Tricks section.
 
 **Upload to pastebin**
+
 Upload the exported file to pastebin and copy the command you need to run on
 the OpenComputer to the clipboard. Especially useful when playing on servers.
 
 ![Pasted image 20240407081346](https://github.com/Hansbald/MCImageFormatter/assets/8036073/81975c19-131f-494a-bbbc-a97b135107ed)
 
 **Save to file**
+
 If you have access to the filesystem of your world you can also save the file directly
 and manually move it to the desired computer. This is not recommended.
 The pastebin method is more comfortable to use.
