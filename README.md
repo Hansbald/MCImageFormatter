@@ -21,7 +21,9 @@ You can run the script like this:
 Running the script without any parameters will show that help.
 Any optional parameter you don't supply will make the program prompt you for it once it starts.
 For easiest usage just use it with a pastebin code.
-![[optionsExample.gif]]
+
+![optionsExample](https://github.com/Hansbald/MCImageFormatter/assets/8036073/8adf9b0c-1ce3-45ac-9aed-80a6631d6a7c)
+
 
 **Error detection**
 Should you run out of ink or if your output storage fills up the program pauses and waits for you to fix the issue. It will automatically resume when the problem is resolved.
@@ -29,9 +31,12 @@ Should you run out of ink or if your output storage fills up the program pauses 
 **Orientations:**
 You can print in three orientations: **wall, ceiling and floor**
 Here is an example for a wall print (works in all directions) and a floor print.
-![[Pasted image 20240407080203.png]]
 
-![[Pasted image 20240407080230.png]]
+![Pasted image 20240407080203](https://github.com/Hansbald/MCImageFormatter/assets/8036073/74726760-028f-4b1c-b6f5-a1dcc4107740)
+
+
+![Pasted image 20240407080230](https://github.com/Hansbald/MCImageFormatter/assets/8036073/fc8701d1-b777-4bb1-84ce-2a843e497789)
+
 
 
 ### The Java Part
@@ -42,7 +47,9 @@ Drag and drop an image into the "Input Image" view to load a new imagine
 **Cosmetic Image zoom**
 You can zoom into both the input and output image with the scroll wheel, this is entirely cosmetic no transformations are being applied to the actual image. You can use this to zoom in to fine tune the alpha threshold for example.
 Upon loading an image or committing changes to it it tries to scale itself to fit the view.
-![[zoom.gif]]
+
+![zoom](https://github.com/Hansbald/MCImageFormatter/assets/8036073/37f17eaa-9323-43b1-8137-7ed1a72ce668)
+
 
 **Alpha Threshold**
 The 3D Printer cannot display semi-transparency. 
@@ -51,12 +58,16 @@ This is mostly necessary for pictures with bad dithering or anti-aliasing.
 Moving the slider automatically updates the output image.
 Use the zoom to check for any artifacting, the default suits most images.
 This test image has many different transparency levels to show the effect.
-![[alphathreshold.gif]]
+
+![alphathreshold](https://github.com/Hansbald/MCImageFormatter/assets/8036073/438fa281-3a19-4fdb-a8bd-00b4d9cbece8)
+
 
 **Resizing**
 Resizes the image to a multiple of 16 pixels, padding will be supported soon.
 The output does not have to be square it can also be rectangular.
-![[resize.gif]]
+
+![resize](https://github.com/Hansbald/MCImageFormatter/assets/8036073/b4d7ba50-64eb-4a4a-8bd0-a43e9839bd24)
+
 
 **Print placeholders for empty cells**
 If a cell (16x16 pixels) is entirely transparent you can either discard it and skip printing it
@@ -67,7 +78,8 @@ To learn more about this check out the Tipps and Tricks section.
 **Upload to pastebin**
 Upload the exported file to pastebin and copy the command you need to run on
 the OpenComputer to the clipboard. Especially useful when playing on servers.
-![[Pasted image 20240407081346.png]]
+
+![Pasted image 20240407081346](https://github.com/Hansbald/MCImageFormatter/assets/8036073/81975c19-131f-494a-bbbc-a97b135107ed)
 
 **Save to file**
 If you have access to the filesystem of your world you can also save the file directly
