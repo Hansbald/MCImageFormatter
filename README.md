@@ -14,6 +14,7 @@ To download the program simply type in this command after installing OpenOS:
 **pastebin get {PLACE_HOLDER} 3dbatchprinter.lua**
 
 You can run the script like this:
+
 ![Pasted image 20240407075639](https://github.com/Hansbald/MCImageFormatter/assets/8036073/d2c4d9ec-151f-465e-8fa7-a3c9bb11538f)
 
 
