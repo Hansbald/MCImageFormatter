@@ -1,3 +1,5 @@
+## ImageFormatter and 3D Batchprinter for OC
+
 This project consists of two parts, **a java app** to convert any image into shapes for OCs 3D Printer
 and a **LUA script** which handles the actual printing of the jobs including error detection and progress reporting. Each 3D Print is one block big and can have up to 16x16 pixels, we call each individual block a cell.
 
